@@ -8,3 +8,14 @@ elif is_cold:
     print('wear hot clothes')
 else:
     print("neutral day")
+    
+
+Price=1000000
+good_credit=False
+if good_credit:
+    putdown=(Price * 10)/100
+    Price=Price-putdown
+else:
+    putdown=(Price*20)/100
+    Price = Price - putdown
+print(f"Down payment {Price  }")

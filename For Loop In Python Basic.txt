@@ -1,0 +1,12 @@
+numbers=[5,2,5,2,2]
+Value=["X"]
+for item in numbers:
+    for j in Value:
+        print(item*j)
+
+numbers=[5,2,5,2,2]
+for x_count in numbers:
+    output=''
+    for count in range(x_count):
+        output += 'X'
+    print(output)

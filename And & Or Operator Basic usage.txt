@@ -1,0 +1,8 @@
+high_income=True
+good_credit=False
+if high_income and good_credit:
+    print('eligible for load')
+if high_income or good_credit:
+    print('only one')
+else:
+    print('not eligible') 

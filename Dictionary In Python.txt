@@ -1,0 +1,7 @@
+cumtomer={
+    "name": "Iqrar",
+    "age":"20",
+    "isVerified":True
+}
+cumtomer["Birthday"]="6 june , 2000"
+print(cumtomer)

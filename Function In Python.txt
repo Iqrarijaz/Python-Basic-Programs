@@ -1,0 +1,15 @@
+def greetUser():
+    print("hi there")
+    print("welcome abroad")
+    
+    
+print("Start")
+greetUser()
+print("ennd")def greetUser():
+    print("hi there")
+    print("welcome abroad")
+    
+    
+print("Start")
+greetUser()
+print("ennd")

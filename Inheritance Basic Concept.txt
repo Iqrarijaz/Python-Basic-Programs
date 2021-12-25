@@ -1,0 +1,19 @@
+class Mammal:
+    def walk(self):
+        print("Walk")
+
+
+class Dog(Mammal):
+    def bark(self):
+        print("Dont bark")
+
+
+class Cat(Mammal):
+    def annoying(self):
+        print("Dont Meow")
+
+ 
+dog1=Dog()
+dog1.bark()
+cat1=Cat()
+cat1.annoying()

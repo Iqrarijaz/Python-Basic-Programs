@@ -1,0 +1,39 @@
+class Vahicals:
+    def __init__(self, vahicalname, drivername,capacity):
+          self.vname=vahicalname
+          self.driver=drivername
+          self.cap=capacity
+
+    def vahicalname(self):
+        print(f"Name of Vahical is {self.vname}")
+        print(f"Driver Name is {self.driver}")
+
+    def perkingFee(self):
+        if self.vname == "car":
+            print(f"Parking fee for your {self.vname} is 100")
+        elif self.vname == "van":
+            print(f"Parking fee for your {self.vname} is 200")
+
+
+
+class Car(Vahicals):
+    def capacit(self):
+        print(f"{self.vname} has the capacity of {self.cap} people")
+
+
+class Van(Vahicals):
+    def capacity(self):
+        print(f"{self.vname} has the capacity of {self.cap} people")
+
+
+try:
+      vahicalName=input("Vahical Name : ").lower()
+      driverName=input("Driver Name : ").lower()
+      capacity=input("Total capacity :")
+      output=capacity
+      Car1=Car(vahicalName,driverName,output)
+      Car1.vahicalname()
+      Car1.capacit()
+      Car1.perkingFee()
+except NameError:
+    print("please Enter")

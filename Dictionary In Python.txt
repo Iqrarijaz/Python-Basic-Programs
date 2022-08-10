@@ -4,4 +4,6 @@ cumtomer={
     "isVerified":True
 }
 cumtomer["Birthday"]="6 june , 2000"
+//print value of customer
 print(cumtomer)
+
